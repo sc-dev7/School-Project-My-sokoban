@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     my_sokoban
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _nb_char, symObjAddr: 0x0, symBinAddr: 0x100002568, symSize: 0xD8 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _nb_char, symObjAddr: 0x0, symBinAddr: 0x100002568, symSize: 0xD8 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _verif_charact, symObjAddr: 0xD8, symBinAddr: 0x100002640, symSize: 0x16C }
+  - { offsetInCU: 0xD3, offset: 0xD3, size: 0x8, addend: 0x0, symName: _tab_copy, symObjAddr: 0x244, symBinAddr: 0x1000027AC, symSize: 0x108 }
+  - { offsetInCU: 0x12F, offset: 0x12F, size: 0x8, addend: 0x0, symName: _erreur, symObjAddr: 0x34C, symBinAddr: 0x1000028B4, symSize: 0xB8 }
+  - { offsetInCU: 0x26, offset: 0x230, size: 0x8, addend: 0x0, symName: _rules, symObjAddr: 0x0, symBinAddr: 0x10000296C, symSize: 0xA0 }
+  - { offsetInCU: 0x41, offset: 0x24B, size: 0x8, addend: 0x0, symName: _rules, symObjAddr: 0x0, symBinAddr: 0x10000296C, symSize: 0xA0 }
+  - { offsetInCU: 0x73, offset: 0x27D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA0, symBinAddr: 0x100002A0C, symSize: 0xD0 }
+  - { offsetInCU: 0x26, offset: 0x36D, size: 0x8, addend: 0x0, symName: _move_left, symObjAddr: 0x0, symBinAddr: 0x100002ADC, symSize: 0x2D8 }
+  - { offsetInCU: 0x33, offset: 0x37A, size: 0x8, addend: 0x0, symName: _move_left, symObjAddr: 0x0, symBinAddr: 0x100002ADC, symSize: 0x2D8 }
+  - { offsetInCU: 0x57, offset: 0x39E, size: 0x8, addend: 0x0, symName: _move_right, symObjAddr: 0x2D8, symBinAddr: 0x100002DB4, symSize: 0x2D8 }
+  - { offsetInCU: 0x7B, offset: 0x3C2, size: 0x8, addend: 0x0, symName: _move_up, symObjAddr: 0x5B0, symBinAddr: 0x10000308C, symSize: 0x2D8 }
+  - { offsetInCU: 0x9F, offset: 0x3E6, size: 0x8, addend: 0x0, symName: _move_down, symObjAddr: 0x888, symBinAddr: 0x100003364, symSize: 0x2D8 }
+  - { offsetInCU: 0xC3, offset: 0x40A, size: 0x8, addend: 0x0, symName: _move_play, symObjAddr: 0xB60, symBinAddr: 0x10000363C, symSize: 0xD8 }
+  - { offsetInCU: 0x26, offset: 0x4EF, size: 0x8, addend: 0x0, symName: _my_putchar, symObjAddr: 0x0, symBinAddr: 0x100003714, symSize: 0x2C }
+  - { offsetInCU: 0x33, offset: 0x4FC, size: 0x8, addend: 0x0, symName: _my_putchar, symObjAddr: 0x0, symBinAddr: 0x100003714, symSize: 0x2C }
+  - { offsetInCU: 0x57, offset: 0x520, size: 0x8, addend: 0x0, symName: _my_putstr, symObjAddr: 0x2C, symBinAddr: 0x100003740, symSize: 0x64 }
+  - { offsetInCU: 0x97, offset: 0x560, size: 0x8, addend: 0x0, symName: _my_strcpy, symObjAddr: 0x90, symBinAddr: 0x1000037A4, symSize: 0x6C }
+  - { offsetInCU: 0x26, offset: 0x5E7, size: 0x8, addend: 0x0, symName: _position, symObjAddr: 0x0, symBinAddr: 0x100003810, symSize: 0x160 }
+  - { offsetInCU: 0x41, offset: 0x602, size: 0x8, addend: 0x0, symName: _position, symObjAddr: 0x0, symBinAddr: 0x100003810, symSize: 0x160 }
+  - { offsetInCU: 0x93, offset: 0x654, size: 0x8, addend: 0x0, symName: _position_x, symObjAddr: 0x160, symBinAddr: 0x100003970, symSize: 0x160 }
+  - { offsetInCU: 0xE5, offset: 0x6A6, size: 0x8, addend: 0x0, symName: _print_map, symObjAddr: 0x2C0, symBinAddr: 0x100003AD0, symSize: 0x74 }
+  - { offsetInCU: 0x26, offset: 0x784, size: 0x8, addend: 0x0, symName: _map, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x64 }
+  - { offsetInCU: 0x33, offset: 0x791, size: 0x8, addend: 0x0, symName: _map, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x64 }
+  - { offsetInCU: 0x85, offset: 0x7E3, size: 0x8, addend: 0x0, symName: _ligne, symObjAddr: 0x64, symBinAddr: 0x100003BA8, symSize: 0x78 }
+  - { offsetInCU: 0xC9, offset: 0x827, size: 0x8, addend: 0x0, symName: _colonne, symObjAddr: 0xDC, symBinAddr: 0x100003C20, symSize: 0x58 }
+  - { offsetInCU: 0x10D, offset: 0x86B, size: 0x8, addend: 0x0, symName: _returnstr, symObjAddr: 0x134, symBinAddr: 0x100003C78, symSize: 0xA8 }
+  - { offsetInCU: 0x15F, offset: 0x8BD, size: 0x8, addend: 0x0, symName: _str_to_word_array, symObjAddr: 0x1DC, symBinAddr: 0x100003D20, symSize: 0x100 }
+...
